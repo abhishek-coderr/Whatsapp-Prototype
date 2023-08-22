@@ -1,0 +1,223 @@
+.marketplace {
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.allproducts{
+  display: grid;
+  grid-template-columns: 33.3% 33.3% 33.3%;
+  text-align: center;
+  overflow: scroll;
+  height: inherit;
+}
+.allproducts::-webkit-scrollbar{
+  display: none;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.product-image img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  margin-bottom: 10px;
+}
+
+.product-price {
+  margin-bottom: 10px;
+}
+
+.buy-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    color: #128C7E;
+    text-decoration: underline;
+}
+.header{
+    background-color: #075E54;
+    display: flex;
+    padding: 15px;
+  }
+  .header>p>i{
+    color: white;
+  }
+  .user-icon{
+    background-color: white;
+    padding: 2%;
+    margin-left: 3%;
+    border-radius: 100%;
+  }
+  .user-nmae{
+    color: white;
+    padding-left: 3%;
+    font-size: 15px;
+    width: 72%;
+  }
+  .user-contact{
+    display: flex;
+    color: white;
+  }
+  .user-contact>p{
+    margin-left: 25px;
+  }
+  .addButton{
+    position: absolute;
+    background-color: #128C7E;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    top: 80%;
+    left: 90%;
+    transition: all ease-in-out 0.2s;
+  }
+  .addButton>i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -49%);
+  }
+  .addButton:hover{
+    cursor: pointer;
+    background-color: #34B7F1;
+    transform: scale(1.1);
+  }
+
+
+
+  .additem{
+    position: absolute;
+    z-index: 2;
+    top: 49%;
+    left: 33%;
+    background-color: #128C7E;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1%;
+    border-radius: 10px;
+    width: 64%;
+  }
+  
+  .product-form {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .circular-div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #128C7E;
+    border-radius: 50%;
+    overflow: hidden; 
+  }
+  .circular-div img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+  
+  .details-container {
+    padding: 20px 24px;
+    flex: 1;
+  }
+  .product-name{
+    width: 95%;
+    margin-bottom: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .textbox {
+    width: 96%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    padding-right: 0px;
+  }
+  
+  .price-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .price-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    width: 98%;
+    justify-content: space-between;
+  }
+  
+  .submit-button,
+  .reset-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover,
+  .reset-button:hover {
+    background-color: #0056b3;
+  }

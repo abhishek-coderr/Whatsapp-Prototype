@@ -1,0 +1,217 @@
+/* ChatIntefce.css */
+
+.chat-app {
+    background-image: url("https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png");
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header{
+    background-color: #075E54;
+    display: flex;
+    padding: 15px;
+  }
+  .header>p>i{
+    color: white;
+  }
+  .user-icon{
+    width: 25px;
+    height: 25px;
+    border: 2px solid #128C7E;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .user-icon>img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+  }
+  .user-nmae{
+    color: white;
+    padding-left: 3%;
+    font-size: 15px;
+    width: 72%;
+  }
+  .user-contact{
+    display: flex;
+    color: white;
+  }
+  .user-contact>p{
+    margin-left: 40px;
+    font-size: 20px;
+  }
+  
+  .message-list {
+    overflow-y: auto;
+    padding: 3%;
+  }
+  
+  .message {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    max-width: 70%;
+  }
+  
+  .user {
+    background-color: #DCF8C6;
+    align-self: flex-end;
+  }
+  
+  .contact {
+    background-color: #ECE5DD;
+    align-self: flex-start;
+  }
+  .input-area{
+    display: flex;
+    position: absolute;
+    margin: 2.5%;
+    width: 95%;
+    bottom: 2px;
+  }
+  
+  .message-input {
+    background-color: white;
+    width: -webkit-fill-available;
+    padding: 5px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .message-input>input{
+    border: none;
+    outline: none;
+    width: -webkit-fill-available;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .message-input>i{
+    color: grey;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+  }
+  .send-button{
+    background-color: #128C7E;
+    padding: 30px;
+    margin-left: 1%;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    transition: all .2s ease-in-out;
+  }
+  .send-button>i{
+    color: white;
+  }
+  .send-button:hover{
+    background-color: #34B7F1;
+    transform: scale(1.1);
+  }
+  i:hover {
+    cursor: pointer !important;
+    transform: scale(1.2); 
+    transition: all .2s ease-in-out;
+  }
+  
+  .features{
+    background-color: white;
+    text-align: center;
+    display: none;
+    padding: 20px 80px;
+    margin: 0 15%;
+    grid-template-columns: auto auto auto;
+    bottom: 15%;
+    overflow: hidden;
+    border-radius: 20px;
+    width: -webkit-fill-available;
+    position: absolute;
+  }
+  .features>p>i{
+    font-size: 30px;
+    color: #075E54;
+    padding: 10px;
+  }
+  .features>p>i:hover{
+    color: #34B7F1;
+  }
+  
+  
+  .settings{
+    position: absolute;
+    overflow-y: scroll;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  }
+  .settings::-webkit-scrollbar {
+    display: none;
+}
+  .setting_A{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding:0 2%;
+  }
+  .group_details{
+    width: 100%;
+    text-align: center;
+  }
+  .group_details>img{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border: 2px solid #128C7E;
+    border-radius: 50%;
+  }
+  .group_details>div{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 35% 0 35%;
+  }
+  .group_details>div>p{
+    color: #128C7E;
+  }
+  .group_details>div>p>i{
+    font-size: 40px;
+    color: #128C7E;
+    padding-bottom: 10px;
+  }
+  .group_description{
+    margin-left: 20px;
+  }
+  .group_description>h3{
+    color: #128C7E;
+  }
+  .justify{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  ._settings>i{
+    font-size: 20px;
+    color: #128C7E;
+    padding: 15px 20px;
+  }
+  ._settings2>i{
+    font-size: 20px;
+    color: red;
+    padding: 15px 20px;
+  }
+  .market{
+    cursor: pointer;
+  }
+  .market:hover{
+    background-color: rgba(0, 0, 0, 0.247);
+  }
